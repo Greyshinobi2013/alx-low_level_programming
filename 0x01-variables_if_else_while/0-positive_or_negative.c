@@ -5,6 +5,8 @@
 /*
  * main - Entry point
  *
+ *Description: 'negative, zero and positive'
+ *
  * Return: Always 0 (Success)
  */
 
