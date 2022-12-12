@@ -1,11 +1,12 @@
 #include <stdlib.h>
 #include <stdio.h>
 #include <time.h>
+/* more headers goes there */
 
 /*
  * main - Entry point
  *
- *Description: 'negative, zero and positive'
+ *Description: 'negative, zero and positive number checker'
  *
  * Return: Always 0 (Success)
  */
