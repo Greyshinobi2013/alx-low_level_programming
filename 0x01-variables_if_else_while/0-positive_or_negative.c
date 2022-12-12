@@ -5,7 +5,7 @@
 /*
  * main - Entry point
  *
- *description: 'negative, zero and positive number checker'
+ *
  *
  * Return: Always 0 (Success)
  */
