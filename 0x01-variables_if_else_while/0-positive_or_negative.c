@@ -5,7 +5,7 @@
 /*
  * main - Entry point
  *
- *Description: 'checker' 
+ *Description: 'checker'
  *
  * Return: Always 0 (Success)
  */
