@@ -12,7 +12,7 @@ int main(void)
 
 	for (numbers = 0; numbers <= 10; numbers++)
 	{
-	printf(numbers);
+	printf("%d", numbers);
 	}
 	putnumbersar('\n');
 	return (0);
