@@ -14,7 +14,7 @@ int main(void)
 	{
 	printf("%d", numbers);
 	}
-	putnumbersar('\n');
+	printf('\n');
 	return (0);
 }
 
