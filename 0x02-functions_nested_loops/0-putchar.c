@@ -9,9 +9,10 @@
 
 int main(void)
 {
+	int count;
 	char message[] = "_putchar";
 	
-	for (int count = 0; count <8 ; count++)
+	for (count = 0; count <8 ; count++)
 	{
 	if (message[count] == '\0')
 	{
