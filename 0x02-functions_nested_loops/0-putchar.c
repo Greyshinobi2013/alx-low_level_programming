@@ -9,6 +9,7 @@
 
 int main(void)
 {
-	_putchar('_putchar');
+	long int letters= "_putchar";
+	_putchar(letters);
 	return (0);
 }
