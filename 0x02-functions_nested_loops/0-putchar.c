@@ -10,6 +10,7 @@ int main(void)
 {
 	int count;
 	char message[] = "_putchar";
+
 	for (count = 0; count <= 8; count++)
 	{
 	if (message[count] == '\0')
