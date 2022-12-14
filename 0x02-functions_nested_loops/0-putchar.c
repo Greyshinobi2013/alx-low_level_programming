@@ -1,6 +1,5 @@
 #include <stdio.h>
-#include "_putchar.c"
-
+#include "main.h"
 /**
  * main - Entry point
  *
@@ -12,7 +11,7 @@ int main(void)
 	int count;
 	char message[] = "_putchar";
 	
-	for (count = 0; count < 8; count++)
+	for (count = 0; count <= 8; count++)
 	{
 	if (message[count] == '\0')
 	{
