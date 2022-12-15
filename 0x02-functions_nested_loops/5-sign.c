@@ -1,7 +1,5 @@
 #include "main.h"
 
-
-
 /**
  *
  *  * main - check the code.
@@ -17,8 +15,6 @@ int main(void)
 {
 
 	    int r;
-
-
 
 	        r = print_sign(98);
 
