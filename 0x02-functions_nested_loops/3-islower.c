@@ -8,13 +8,13 @@
  */
 int _islower(int c)
 {
-	if (c >= 'a' || c <= 'z')
+	char i;
+	int lower = 0;
+
+	for (i = 'a'; i <= 'z'; i++)
 	{
-		_putchar('1');
+		if (i == c)
+			lower = 1;
 	}
-	else
-	{
-		_putchar('0');
-	}
-	return (0);
+	return (lower);
 }
