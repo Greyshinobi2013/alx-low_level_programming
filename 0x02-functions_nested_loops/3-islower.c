@@ -1,7 +1,7 @@
 #include "main.h"
 
 /**
- * _islower - checks if c is lowercase letter or not
+ *Description: _islower - checks if c is lowercase letter or not
  *
  * main - Entry point
  *
