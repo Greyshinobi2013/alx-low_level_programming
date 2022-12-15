@@ -1,11 +1,9 @@
 #include "main.h"
 
 /**
- *
  * _islower - Entry point
- *
- *Description: _islower - checks if c is lowercase letter or not
- *
+ * @c: input parameter
+ * Description: _islower
  * Return: Always 0 (success)
  */
 int _islower(int c)
