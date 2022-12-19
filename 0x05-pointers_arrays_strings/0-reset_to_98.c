@@ -1,7 +1,7 @@
 #include "main.h"
 
 /**
- * 
+ *
  *main -
  *
  *Return: (0) if successful
