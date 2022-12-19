@@ -13,8 +13,6 @@ void reset_to_98(int *n)
 	char digit;
 	digit = *n;
 
-	for(i = 0; i < 2; i++)
-	{
 	_putchar(digit);
-	}
+
 }
