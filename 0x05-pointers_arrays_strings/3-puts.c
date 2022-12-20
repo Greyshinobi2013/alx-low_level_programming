@@ -5,7 +5,7 @@
  *
  *Description:  prints a string followed by a new line
  *
- *@str - input
+ *@param - Accepts String input
  *
  *Return: nothing(successful)
  */
@@ -13,5 +13,5 @@
 void _puts(char *str)
 {
 	puts(str);
-	/*_putchar('\n');*/
+
 }
