@@ -1,13 +1,13 @@
 #include "main.h"
 
 /**
- *_puts - Entry point
+ * _puts - Entry point
  *
- *Description:  prints a string followed by a new line
+ * Description:  prints a string followed by a new line
  *
- *@str recieves string value
+ * @str: recieves string value
  *
- *Return: nothing(successful)
+ * Return: nothing(successful)
  */
 
 void _puts(char *str)
