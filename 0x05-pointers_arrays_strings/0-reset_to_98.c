@@ -2,7 +2,7 @@
 
 /**
  *
- *rest_to_89 - reset pointer to 98.
+ *Description: rest pointer to 98.
  *
  *Return:no thing.
  */
