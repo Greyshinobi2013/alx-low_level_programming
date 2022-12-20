@@ -2,7 +2,7 @@
 
 /**
  *
- *main -
+ *rest_to_89 - reset pointer to 98
  *
  *Return: (0) if successful
  */
