@@ -5,6 +5,8 @@
  *
  * Description: 'n reset value to 98'
  *
+ *@n: input
+ *
  * Return: Nothing (Success)
  */
 
