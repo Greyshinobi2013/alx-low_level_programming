@@ -1,9 +1,9 @@
 #include "main.h"
 
 /**
- *Description: pointer value assigner to 98.
+ * reset_to_98 - Entry point
  *
- * Return:no thing.
+ * Return: Nothing (Success)
  */
 
 void reset_to_98(int *n)
