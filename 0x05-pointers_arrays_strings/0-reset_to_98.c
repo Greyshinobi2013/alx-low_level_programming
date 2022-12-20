@@ -2,9 +2,9 @@
 
 /**
  *
- *rest_to_89 - reset pointer to 98
+ *rest_to_89 - reset pointer to 98.
  *
- *Return: (0) if successful
+ *Return:no thing.
  */
 
 void reset_to_98(int *n)
