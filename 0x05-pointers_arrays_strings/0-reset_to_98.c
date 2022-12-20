@@ -3,7 +3,7 @@
 /**
  * reset_to_98 - Entry point
  *
- * Description: 'n' reset value to 98
+ * Description: ''n' reset value to 98'
  *
  * Return: Nothing (Success)
  */
