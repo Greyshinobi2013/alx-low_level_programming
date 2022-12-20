@@ -6,7 +6,7 @@
  *@a: first input
  *@b: Second input
  *
- * Return - Nothing
+ *Return - Nothing
  */
 
 void swap_int(int *a, int *b)
