@@ -1,7 +1,9 @@
 #include "main.h"
 
 /**
- * reset_to_98 - 'reset any input parameter to 98' 
+ * reset_to_98 - Entry point
+ *
+ * Description: reset value to 98
  *
  * Return: Nothing (Success)
  */
