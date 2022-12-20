@@ -5,7 +5,7 @@
  *
  *Description:  prints a string followed by a new line
  *
- *@param str is a pointer that points to a pointer variable str in the main function
+ *@str recieves string value
  *
  *Return: nothing(successful)
  */
