@@ -15,13 +15,13 @@ void print_rev(char *s)
 	
 	for (i = arraySize + 1; i >= 0; i--)
 	{
-            if(s[i] != '\0')
-	    {
-		_putchar(s[i]);
-	    }
-	    else
-	    {
-		break;
-	    }
+		if(s[i] != '\0')
+		{
+			_putchar(s[i]);
+		}
+		else
+		{
+			break;
+		}
 	}
 }
