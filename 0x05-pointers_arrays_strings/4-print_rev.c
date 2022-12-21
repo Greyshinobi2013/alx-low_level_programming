@@ -11,11 +11,10 @@
 void print_rev(char *s)
 {
 	int arraySize = sizeof(s);
-	int i;
-	
+	int i;	
 	for (i = arraySize + 2; i >= 0; i--)
 	{
-		if(s[i] != '\0')
+		if (s[i] != '\0')
 		{
 			_putchar(s[i]);
 		}
