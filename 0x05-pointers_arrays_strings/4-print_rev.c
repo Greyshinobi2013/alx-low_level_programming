@@ -1,21 +1,27 @@
 #include "main.h"
 
 /**
- * print_rev - Entery point
- *
- * @s : recieves a string
- *
- * Return: nothing if Successful
+ *print_rev - imprime en reversa
+ *@s: string
+ *Return: 0
  */
-
 void print_rev(char *s)
 {
-	int arraySize = sizeof(s);
-	int i;
+	int longi = 0;
+	int o;
 
-	for (i = arraySize; i >= 0; i--)
+	while (*s != '\0')
 	{
-		_putchar(s[i]);
+		longi++;
+		s++;
+	}
+	s--;
+
+	for (o = longi; o > 0; o--)
+
+	{
+		_putchar(*s);
+		s--;
 	}
 	_putchar('\n');
 }
