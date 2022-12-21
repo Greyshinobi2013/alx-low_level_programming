@@ -13,7 +13,7 @@ void print_rev(char *s)
 	int arraySize = sizeof(s);
 	int i;
 	
-	for (i = arraySize + 1; i >= 0; i--)
+	for (i = arraySize + 2; i >= 0; i--)
 	{
 		if(s[i] != '\0')
 		{
