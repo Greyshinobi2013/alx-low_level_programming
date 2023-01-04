@@ -9,7 +9,7 @@
  *@b: value to be filled
  *@n: number of bytes to be filled
  *
- * Return: poiner.
+ * Return: return char(Success)
  */
 
 char *_memset(char *s, char b, unsigned int n)
