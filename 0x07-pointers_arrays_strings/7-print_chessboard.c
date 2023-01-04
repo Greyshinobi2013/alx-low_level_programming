@@ -1,7 +1,7 @@
 #include "main.h"
 
 /**
- * _print_chessboard - Entry point
+ * print_chessboard - Entry point
  *
  * Description: 'prints chess board'
  *
