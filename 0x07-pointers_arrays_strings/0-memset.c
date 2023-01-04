@@ -1,7 +1,9 @@
 #include "main.h"
 
 /**
- * main - check the code
+ * _memset - Entry point
+ *
+ * Description: 'fills memory with a constant byte'
  *
  *@s: starting address of memory to be filled
  *@b: value to be filled
