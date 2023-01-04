@@ -5,7 +5,7 @@
  *
  * Description: 'copies memory address'
  *
- * @dest: char input 
+ * @dest: char input
  * @src: char input
  * @n: unsigned int input
  *
