@@ -3,13 +3,13 @@
 /**
  * _memcpy - Entry point
  *
- * Description: copies memory area
+ * Description: 'copies memory area'
  *
  * @dest: first input
  * @src: Second input
  * @n: third input
  *
- * Return - char (success)
+ * Return - char(success)
  */
 char *_memcpy(char *dest, char *src, unsigned int n)
 {
