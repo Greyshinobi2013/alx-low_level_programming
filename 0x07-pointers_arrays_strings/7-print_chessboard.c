@@ -5,9 +5,9 @@
  *
  * Description: 'prints chess board'
  *
- * @a: character input
+ * @a: multidimentional array of charactors input
  *
- * Return: Nothing
+ * Return: nothing
  */
 
 void print_chessboard(char (*a)[8])
