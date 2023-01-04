@@ -3,8 +3,6 @@
 /**
  * _memcpy - Entry point
  *
- * Description: 'copies memory area'
- *
  * @dest: char
  * @src: char
  * @n: unsigned int
