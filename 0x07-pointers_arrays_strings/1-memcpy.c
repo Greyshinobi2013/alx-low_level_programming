@@ -9,7 +9,7 @@
  * @src: char
  * @n: unsigned int
  *
- * Return - char(success)
+ * Return - char(success).
  */
 char *_memcpy(char *dest, char *src, unsigned int n)
 {
