@@ -1,7 +1,7 @@
 #include "main.h"
 
 /**
- * _memcpy - Entry point
+ * _memcpy - copies memory area
  *
  * @dest: first input
  * @src: Second input
