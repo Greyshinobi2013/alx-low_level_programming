@@ -1,15 +1,17 @@
 #include "main.h"
 
 /**
- * swap_int - Entry point
+ * _strchr - Entry point
  *
- * @s: input_1
- * @c: input_2
+ * Description: 'locate character in string'
  *
- * Return - char(success)
+ * @s: char input
+ * @c: char input
  *
- **/
+ * Return: char(Success)
+ */
+
 char *_strchr(char *s, char c)
 {
-	return strchr(s,c);
+	return (strchr(s,c));
 }
