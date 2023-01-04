@@ -1,14 +1,15 @@
 #include "main.h"
 
 /**
- * _memcpy - copies memory area
+ * _memcpy -Entry point
  *
  * @dest: char
  * @src: char
  * @n: unsigned int
  *
+ * Description:  copies memory area
  * Return - char.
- */
+ **/
 char *_memcpy(char *dest, char *src, unsigned int n)
 {
 	return (memcpy(dest, src, n));
