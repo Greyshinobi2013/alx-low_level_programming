@@ -1,9 +1,9 @@
 #include "main.h"
 
 /**
- * _memset - Entry point
+ * _memcpy - Entry point
  *
- * Description: 'Copies memory address'
+ * Description: 'copies memory address'
  *
  * @dest: char input 
  * @src: char input
