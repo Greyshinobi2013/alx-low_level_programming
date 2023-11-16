@@ -1,4 +1,5 @@
-#include <stdio.h>
+#include "main.h"
+#include <string.h>
 
 /**
  *_puts_recursion - Prints out String
@@ -11,5 +12,10 @@
  */
 void _puts_recursion(char *s)
 {
-	puts(*s);
+	int i;
+	for (i = 0; i < (int)strlen(s);i++)
+	{
+		_putchar(s[i]);
+	}
+	_putchar('\n');
 }
