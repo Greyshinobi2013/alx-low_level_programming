@@ -11,9 +11,7 @@
  */
 int is_prime_number(int n)
 {
-	unsigned int m = (unsigned int)n;
-
-	if (n == 1 || n == m)
+	if (n == 1 || n < 0)
 	{
 		return (1);
 	}
