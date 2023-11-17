@@ -17,7 +17,7 @@ int _sqrt_recursion(int n)
 	}
 	else
 	{
-		unsigned int result = isqrt(n);
+		int result = (int)isqrt(n);
 
 		if (result * result == n)
 		{
