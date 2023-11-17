@@ -72,22 +72,22 @@ int sqrt_helper(int n, int start, int end)
  *
  * Return: The integer square root of the number.
  */
-unsigned isqrt(unsigned x)
+unsigned int isqrt(unsigned int x)
 {
 	if (x == 0 || x == 1)
 	{
 		return (x);
 	}
-    else
+	else
 	{
-		unsigned r = isqrt(x / 4) * 2;
-		unsigned r_squared = r * r;
-	
+		unsigned int r = isqrt(x / 4) * 2;
+		unsigned int r_squared = r * r;
+
 		if (r_squared > x)
 		{
 			return (r - 1);
 		}
-		else if(r_squared == x)
+		else if (r_squared == x)
 		{
 			return (r);
 		}
