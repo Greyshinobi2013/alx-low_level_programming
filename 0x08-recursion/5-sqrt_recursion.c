@@ -15,13 +15,26 @@ int _sqrt_recursion(int n)
 	{
 		return (-1);
 	}
-	else if (n == 0 || n == 1)
-	{
-		return (n);
-	}
 	else
 	{
-	return (sqrt_helper(n, 1, n));
+		unsigned int result = isqrt(n);
+
+		if (result * result == n)
+		{
+			return (result);
+		}
+		else
+		{
+			return (-1);
+		}
+		if (n == 0 || n == 1)
+		{
+			return (n);
+		}
+		else
+		{
+			return (sqrt_helper(n, 1, n));
+		}
 	}
 }
 /**
@@ -52,4 +65,20 @@ int sqrt_helper(int n, int start, int end)
 	{
 		return (sqrt_helper(n, mid + 1, end));
 	}
+}
+/**
+ * isqrt - Calculates the integer square root of a number.
+ * @x: The number to calculate the square root of.
+ *
+ * Return: The integer square root of the number.
+ */
+unsigned int isqrt(unsigned int x)
+{
+	unsigned int r = x;
+
+	while (r * r > x)
+	{
+		r = (r + x / r) / 2;
+	}
+		return (r);
 }
