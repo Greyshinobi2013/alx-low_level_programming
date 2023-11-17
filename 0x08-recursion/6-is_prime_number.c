@@ -11,7 +11,13 @@
  */
 int is_prime_number(int n)
 {
-	if (n % 2 != 0)
+	unsigned int m = (unsigned int)n;
+
+	if (n == 1 || n == m)
+	{
+		return (1);
+	}
+	else if (n % 2 != 0)
 	{
 		return (1);
 	}
