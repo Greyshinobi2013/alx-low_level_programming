@@ -15,6 +15,6 @@ void _puts(char *s)
 
 	for (int i = 0; i < length; i++)
 	{
-		_putchar(s);
+		_putchar(s[i]);
 	}
 }
