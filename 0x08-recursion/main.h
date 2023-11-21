@@ -11,4 +11,5 @@ unsigned isqrt(unsigned x);
 int is_prime_number(int n);
 int is_palindrome(char *s);
 int is_palindrome_helper(char *s, int start, int end);
+int wildcmp(char *s1, char *s2);
 #endif
