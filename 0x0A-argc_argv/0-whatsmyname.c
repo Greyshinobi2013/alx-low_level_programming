@@ -4,19 +4,19 @@
 /**
  *main - print argv and argc
  *
- *@argc: Number of argument 
+ *@argc: Number of argument
  *@argv: Array of string
  *
  *Description: Print the name of the file
  *
- *Return : Zero
+ *Return: Zero
  */
 
-int main(int argc, char* argv[])
+int main(int argc, char *argv[])
 {
 	if (argc == 1)
 	{
-		printf("%s\n",argv[0]);
+		printf("%s\n", argv[0]);
 	}
 	return (0);
 }
