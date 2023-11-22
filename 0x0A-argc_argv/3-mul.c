@@ -1,5 +1,6 @@
 #include "main.h"
 #include <stdio.h>
+#include <stdlib.h>
 
 /**
  *main - Multiply two number
@@ -14,22 +15,24 @@
 
 int main(int argc, char *argv[])
 {
-	int i;
+	int i, multiplication = 1;
 
 	if (argc != 3)
 	{
-		printf("Error");
+		printf("Error\n");
 		return (1);
 	}
 	else if (argc < 4)
 	{
 		for (i = 1; i < argc; i++)
 		{
-			int multiplication += argv[i];
+			multiplication *= atoi(argv[i]);
 
-			printf("%d\n", multiplication);
 		}
 
-		return (0);
+		printf("%d\n", multiplication);
+
 	}
+
+	return (0);
 }
