@@ -14,6 +14,9 @@ int main(int argc, char *argv[])
 {
 	int numberOfArguments = argc - 1;
 
-	printf("%d\n", numberOfArguments);
+	if (argv[0] != NULL)
+	{
+		printf("%d\n", numberOfArguments);
+	}
 	return (0);
 }
