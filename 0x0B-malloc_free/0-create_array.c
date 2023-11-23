@@ -22,12 +22,12 @@ char *create_array(unsigned int size, char c)
 	{
 		return (NULL);
 	}
-	
+
 	for (i = 0; i < (int)size; i++)
 	{
 		n[i] = c;
 	}
-	
+
 	free(n);
 	return (n);
 }
