@@ -27,7 +27,10 @@ char *create_array(unsigned int size, char c)
 	{
 		n[i] = c;
 	}
-
+	if (n == NULL)
+	{
+		return (NULL);
+	}
 	return (n);
 	free(n);
 
