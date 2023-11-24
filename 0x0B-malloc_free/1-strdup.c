@@ -18,10 +18,8 @@ char *_strdup(char *str)
 
 	duplicateStr = malloc(size * sizeof(char));
 
-	if (str == NULL || size == 0 || duplicateStr)
+	if (str == NULL || size == 0 || duplicateStr == NULL)
 	{
-		free(str);
-		free(duplicateStr);
 		return (NULL);
 	}
 
