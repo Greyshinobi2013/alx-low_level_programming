@@ -20,14 +20,7 @@ char *create_array(unsigned int size, char c)
 
 	if ((int)size == 0 || n == NULL)
 	{
-		char error[25] = "failed to allocate memory";
-
-		for (l = 0; l < 25; i++)
-		{
-			_putchar(error[l]);
-		}
 		return (NULL);
-
 	}
 
 	for (i = 0; i < (int)size; i++)
