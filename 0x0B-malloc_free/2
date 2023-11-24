@@ -14,8 +14,8 @@ char *_strdup(char *str)
 {
 	int i;
 	char *duplicateStr;
-
-	if (str == NULL)
+	
+	if ( strI == NULL)
 	{
 		return (NULL);
 	}
