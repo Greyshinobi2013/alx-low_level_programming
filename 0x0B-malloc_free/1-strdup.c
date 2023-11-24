@@ -10,7 +10,7 @@
  *
  *Return: character pointer
  */
-char *strdup(char *str)
+char *_strdup(char *str)
 {
 	int i;
 	char *duplicateStr;
@@ -27,5 +27,5 @@ char *strdup(char *str)
 		return (NULL);
 	}
 
-	return duplicateStr
+	return (duplicateStr);
 }
