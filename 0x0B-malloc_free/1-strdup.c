@@ -20,6 +20,7 @@ char *_strdup(char *str)
 	
 	if (str == NULL || size == 0)
 	{
+		free(duplicateStr);
 		return (NULL);
 	}
 
