@@ -25,8 +25,9 @@ char *create_array(unsigned int size, char c)
 		for (l = 0; l < 25; i++)
 		{
 			_putchar(error[l]);
-			return (NULL);
 		}
+		return (NULL);
+
 	}
 
 	for (i = 0; i < (int)size; i++)
