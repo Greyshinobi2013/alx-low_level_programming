@@ -35,8 +35,8 @@ char *str_concat(char *s1, char *s2)
 		return (NULL);
 	}
 
-	strcpy(final, S1);
-	strcat(final, S2);
+	strcpy(final, s1);
+	strcat(final, s2);
 
 	return (final);
 }
