@@ -6,7 +6,7 @@
  *
  *@str: String parameter
  *
- *Description: Create and initialize char array
+ *Description:  Returns string copy of the string parameter.
  *
  *Return: character pointer
  */
@@ -22,7 +22,7 @@ char *_strdup(char *str)
 	size = strlen(str) + 1;
 	duplicateStr = malloc(size * sizeof(char));
 
-	if(duplicateStr == NULL)
+	if (duplicateStr == NULL)
 	{
 		return (NULL);
 	}
