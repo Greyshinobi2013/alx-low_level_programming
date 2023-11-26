@@ -18,7 +18,7 @@ char *str_concat(char *s1, char *s2)
 	int i, j, sizeS1, sizeS2;
 	char *copyS1, *copyS2;
 
-	if (s1 == NULL || s2 == NULL)
+	if (s1 == NULL && s2 == NULL)
 	{
 		return (NULL);
 	}
@@ -34,9 +34,19 @@ char *str_concat(char *s1, char *s2)
 		copyS1[i] = s1[i];
 	}
 
+	if (s1 != NULL && S2 == NULL)
+	{
+		return (copyS1);
+	}
+
 	for (j = 0; j < sizeS2; j++)
 	{
 		copyS2[j] = s2[j];
+	}
+
+	if (s1 == NULL && S2 != NULL)
+	{
+		return (copyS2);
 	}
 
 	strcat(copyS1, copyS2);
