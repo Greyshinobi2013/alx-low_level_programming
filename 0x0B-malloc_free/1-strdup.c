@@ -20,14 +20,13 @@ char *_strdup(char *str)
 		return (NULL);
 	}
 	
-	if (strlen(str) != 0)
+	if (strlen(str) != 0 || str == NULL)
 	{
 		size = strlen(str) + 1;
+		uplicateStr = malloc(size * sizeof(char));
 	}
 
-	duplicateStr = malloc(size * sizeof(char));
-
-	if (size == 0 || duplicateStr == NULL)
+	if (duplicateStr == NULL || str == NULL)
 	{
 		return (NULL);
 	}
