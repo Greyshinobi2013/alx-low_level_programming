@@ -19,14 +19,10 @@ char *_strdup(char *str)
 	{
 		return (NULL);
 	}
-	
-	if (strlen(str) != 0 || str == NULL)
-	{
-		size = strlen(str) + 1;
-		uplicateStr = malloc(size * sizeof(char));
-	}
+	size = strlen(str) + 1;
+	duplicateStr = malloc(size * sizeof(char));
 
-	if (duplicateStr == NULL || str == NULL)
+	if(duplicateStr == NULL)
 	{
 		return (NULL);
 	}
