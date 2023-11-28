@@ -7,9 +7,9 @@
  *Return: Success(0)
  */
 
-int main()
+int main(void)
 {
-	printf("%s",__FILE__);
+	printf("%s", __FILE__);
 
 	return (0);
 }
