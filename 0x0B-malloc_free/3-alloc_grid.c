@@ -1,4 +1,6 @@
 #include "main.h"
+#include <stddef.h>
+#include <stdlib.h>
 
 /**
  * str_concat - Return two dimentional array pointer
@@ -6,14 +8,14 @@
  *@width: Int parameter
  *@height: Int parameter
  *
- *Description: Return initialized two dimentional array pointe
+ *Description: Return initialized two dimentional array pointer
  *
  *Return: Concatinated string
  */
 int **alloc_grid(int width, int height)
 {
 	int *array[width][height];
-	int i, j, arraySize;
+	int i, j;
 
 	if ((width == 0 || height == 0) || (width < 0 || height < 0))
 	{
@@ -43,4 +45,5 @@ int **alloc_grid(int width, int height)
 	}
 
 	return (array);
+	free(array);
 }
