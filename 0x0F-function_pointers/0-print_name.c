@@ -1,17 +1,17 @@
-#include "main.h"
+#inclued <main.h>
 
 /**
  *print_name - Print name
  *
  *@name: String parameter
- *@f: Pointer to function parameter
+ *@f: Parameter that points to other pointer
  *
- *Description: Prints a name
+ *Description: Print a name
  *
  *Return: Nothing
  */
-
-void print_name(char *name, void (*f)(char *))
+ 
+void print_name(char *name, void (*f)(char *));
 {
 	f(name);
 }
