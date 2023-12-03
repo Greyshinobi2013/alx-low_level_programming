@@ -19,6 +19,10 @@ int int_index(int *array, int size, int (*cmp)(int))
 	{
 		return (-1);
 	}
+	if ( array == NULL || cmp == NULL)
+	{
+		exit(EXIT_FAILURE);
+	}
 
 	for (i = 0; i < (int)size; i++)
 	{
